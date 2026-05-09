@@ -35,7 +35,7 @@ homeAddress.stateProvince = workAddress.stateProvince
 In the example below, `$1` refers to the first parameter. As a result, `$2` would refer to the second parameter, etc.
 
 ```sql
-$1.homeAddress.stateProvince = $1.homeAddress.stateProvince
+$1.homeAddress.stateProvince = $2.workAddress.stateProvince
 ```
 
 ### Usage of named variables, using the lambda notation
